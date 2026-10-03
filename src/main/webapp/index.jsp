@@ -1,10 +1,21 @@
 <html>
 <body>
+
 <h1>Java Application</h1>
 
-<p>Biggest = 25</p>
-<p>Factorial = 120</p>
-<p>Reverse = 54321</p>
+<form action="result.jsp" method="get">
+
+Enter first number:
+<input type="number" name="num1">
+<br><br>
+
+Enter second number:
+<input type="number" name="num2">
+<br><br>
+
+<input type="submit" value="Calculate">
+
+</form>
 
 </body>
 </html>
